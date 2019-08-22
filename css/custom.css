@@ -1,0 +1,176 @@
+.navbar-expand-lg .navbar-toggler {
+	display: block;
+	margin-right: 10px;
+}
+#list {
+	width: 200px;
+	white-space: nowrap;
+}
+main {
+	margin-top: 55px;
+	display: flex;
+	min-height: calc(100vh - 55px);
+}
+main.slider {
+	overflow-x: hidden;
+	justify-content: flex-start;
+	margin-top: 0;
+}
+main.slider .container-fluid {
+	padding-top: 20px;
+	min-width: 100%;
+	transition: 0.5s;
+	background: #fff;
+}
+.container {
+}
+ul ul {
+	padding: 0;
+	margin-top: 1px;
+}
+ul ul .list-group-item {
+	padding: 0.4rem 1.25rem 0.4rem 1.75rem;
+	background: #fafafa;
+	border: none;
+	font-size: 0.9em;
+	border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+ul ul .list-group-item:last-child, ul ul .list-group-item:first-child {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+a.table-item {
+	color: #d6d6d6;
+}
+a.table-item:hover {
+	text-decoration: underline;
+}
+.row.form-group {
+	align-items: center;
+	padding-left: 10px;
+}
+form:not(#filter_form) label {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+td label {
+	display: block;
+	width: 100%;
+}
+#list input[type=checkbox] {
+	display: none;
+}
+#list span {
+	transition: 0.3s;
+	display: inline-block;
+	margin-right: 10px;
+}
+#list input[type=checkbox]:checked + span {
+	transition: 0.3s;
+	transform: rotate(90deg);
+}
+#list > ul > li.list-group-item {
+	padding: 0;
+}
+#list .list-group-item label {
+	padding: 8px 10px;
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	height: 100%;
+}
+input[type=checkbox] {
+	margin-right: 10px;
+}
+main.login {
+	margin-top: 0;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background: #ddd;
+}
+.login form {
+	margin-top: -50px;
+	background: #fff;
+	box-shadow: 0 0 30px #bbb;;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+}
+.login form > * {
+	width: 100%;
+	text-align: center;
+}
+h3 {
+	padding-top: 10px;
+}
+#list * {
+	background: inherit;
+}
+#list.bg-dark {
+	color: #dfdfdf;
+	background: #303438 !important;
+}
+#list > ul {
+	height: 100%;
+}
+ul a i, ul span i {
+	margin-right: 8px;
+}
+.sort {
+	display: flex;
+	justify-content: space-between;
+}
+.sort > div {
+	display: flex;
+	margin-left: 15px;
+}
+.asc {
+	margin-right: 4px;
+	transform: rotate(90deg);
+}
+.desc {
+	transform: rotate(-90deg);
+}
+.sort input, .pagination input {
+	display: none;
+}
+.active {
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+#filter .form-group > div {
+	display: flex;
+	justify-content: space-between;
+}
+#filter .form-group > div > div {
+	display: flex;
+	align-items: center;
+	width: calc(50% - 10px);
+	padding: 0 5px;
+}
+#filter .form-group > div input, #filter .form-group > div select, #filter .form-group p {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.privileges.form-group {
+	border-bottom: 1px solid #ddd;
+}
+.privileges.form-group:last-child {
+	border-bottom: none;
+}
+.privileges.form-group label {
+	width: calc(50% - 3px);
+}
+.modal textarea {
+	height: 150px;
+}
+.form-control[readonly] {
+	background: #fff;
+}
+.error {
+	display: none;
+}
